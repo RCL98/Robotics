@@ -20,11 +20,6 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   set_color(set_potVal(potPin0), set_potVal(potPin1), set_potVal(potPin2));
-//  Serial.print("Var 0:");Serial.println(potVal_0);
-//  Serial.print(" Var 1:");Serial.println(potVal_1);
-//  Serial.print(" Var 2:");Serial.println(potVal_2);
-//  Serial.print("-----------------------------------------------------\n");
-//  delay(2000);
 }
 
 int set_potVal(int potPin){
