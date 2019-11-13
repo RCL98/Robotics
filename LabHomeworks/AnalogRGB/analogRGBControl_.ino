@@ -1,9 +1,6 @@
-int potPin0 = A0;
-int potPin1 = A1;
-int potPin2 = A2;
-int potVal_0 = 0;
-int potVal_1 = 0;
-int potVal_2 = 0;
+int potPinR = A0;
+int potPinG = A1;
+int potPinB = A2;
 
 int ledPinR = 9;
 int ledPinG = 10;
