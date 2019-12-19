@@ -843,7 +843,7 @@ void loop()
                  generateNewBlock();
                  tetrisBlockState = 0;
                  writeTetrisBlock(blocks[blockIndex].p, tetrisBlockState, currentPoz);
-                 lives = 1;
+                 lives = 3;
                  if (level == 0) {
                      changeSpeedInterval = 17500;
                  } else if (level == 1) { 
