@@ -9,9 +9,9 @@ LedControl lc = LedControl(12, 11, 10, 2); //DIN, CLK, LOAD, No. DRIVER
 // pin 11 is connected to the CLK pin 13
 // pin 10 is connected to LOAD pin 12
 
-const int V0_PIN = A3;
+const int V0_PIN = 3;
 const int RS = 2 ;
-const int enable = 3;
+const int enable = 8;
 const int d4 = 7 ;
 const int d5 = 6 ;
 const int d6 = 5 ;
@@ -762,7 +762,7 @@ void setup()
   lcd.begin (16, 2);
   pinMode(pinSW, INPUT_PULLUP);
   pinMode(V0_PIN, OUTPUT);
-  analogWrite(V0_PIN, 90);
+  analogWrite(V0_PIN, 17);
   Serial.begin(9600); 
   blocks[0].p = tetrisBlockT;
   blocks[1].p = tetrisBlockS;
@@ -773,7 +773,6 @@ void setup()
   blocks[6].p = tetrisBlockI;
   randomSeed(analogRead(A5));
   generateNewBlock();
-  analogWrite(V0_PIN, 90);
   for(int i = 0; i < numberName; ++i) {
      Name[i] = 'A';
   }
@@ -1157,6 +1156,7 @@ void loop()
                   setNameState = 1;
                   buttonState  = 1;
                   lastButtonState = 1;  
+                  letterIndex = 0;
                }
             break;
             case 1:
@@ -1192,6 +1192,7 @@ void loop()
                   settingMenuState = 0;
                   buttonState  = 1;
                   lastButtonState = 1;  
+                  startingLevelValue = 0;
                }
             break;
               
