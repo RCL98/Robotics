@@ -10,7 +10,7 @@
  - HOW TO PLAY:
    Since TETRIS is one of the most iconic games of all time, the user should have no problem playing the game. The controls are intuitive:
    - Use the Joystick to move the Tetromino block to the following directions: left, right(yAxis), and down(xAxis) when the player wants
-     to set the block faster. Obviously you are not allowed to move up.
+     to set the block faster. Obviously you are not allowed to move up, no cheating.
    - Use the Joystick button to rotate the Tetromino block. This game uses the classical rotation schema of Tetris, but with a slight 
      twist, while in the classical Tetris you are not allowed to rotate while stuck to the walls, here you can do this, the game will
      automatically move your piece so as to not collide with anything, but only if it's possible to do so. Also while in the classic game
@@ -24,8 +24,8 @@
        1. Start Game: starts a new game, on the LCD will be displayed relevant info: number of lives, score, and difficulty level
        2. HIGHSCORE: contains a list with the first 3 highscore players
        3. Settings: allows the user to set it's name, and the difficulty level(starting level): 0 - NOVICE, 1 - NORMAL, 2 - HARD.
-                     The difference between the difficulty is the following: each level starts with the same drop speed, that is
-                     the speed at which blocks fall automatically one row, but in time this speed changes, and it changes according to 
-                     the difficulty level: 17.5 seconds for level 0, 15 second for level 1, and 11 seconds for the hardest level. The                            amount with which the speed changes also varies with the level. 
+                     The difference between the difficulty is the following: each level starts with the same drop speed. That is
+                     the speed at which blocks fall automatically one row. But in time this speed changes, and it changes according to 
+                     the difficulty level: 17.5 seconds for level 0, 15 seconds for level 1, and 11 seconds for the hardest level. The                          amount with which the speed changes also varies with the level. 
        4. Info: contains information about the developer(name, GitHub link, and the name of the game)
        5. Exist: exists to the main menu screen
