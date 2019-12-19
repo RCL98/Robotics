@@ -848,7 +848,7 @@ void loop()
                  } else if (level == 1) { 
                      changeSpeedInterval = 15000;
                  } else {
-                     changeSpeedInterval = 12500;
+                     changeSpeedInterval = 11000;
                  }
               }
             break;
