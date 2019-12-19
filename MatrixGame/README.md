@@ -1,9 +1,9 @@
 - HARDWARE: 
-     a. 1 - LCD: displayes the MENU
-     b. 2 - 8 by 8 LED Matrix: where the actual game takes place
-     d. 2 - MAX2791 driver: allows for an easier control of the matrices
-     c. 1 - Joystick: allows the user to control the menu or play the game
-     e. 1 - Arduino Uno: the "brain" that runs it all
+     1. 1 - LCD: displayes the MENU
+     2. 2 - 8 by 8 LED Matrix: where the actual game takes place
+     3. 2 - MAX2791 driver: allows for an easier control of the matrices
+     4. 1 - Joystick: allows the user to control the menu or play the game
+     5. 1 - Arduino Uno: the "brain" that runs it all
      https://ibb.co/6n7z05f (an image with the hardware)
    
  - HOW TO PLAY:
