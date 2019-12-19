@@ -10,7 +10,7 @@
  - HOW TO PLAY:
    Since TETRIS is one of the most iconic games of all time, the user should have no problem playing the game. The controls are intuitive:
    - Use the Joystick to move the Tetromino block to the following directions: left, right(yAxis), and down(xAxis) when the player wants
-     to set the block faster. Obviously you are not allowed to move up, no cheating.
+     to set the block faster. Obviously, you are not allowed to move up, no cheating.
    - Use the Joystick button to rotate the Tetromino block. This game uses the classical rotation schema of Tetris, but with a slight 
      twist, while in the classical Tetris you are not allowed to rotate while stuck to the walls, here you can do this, the game will
      automatically move your piece so as to not collide with anything, but only if it's possible to do so. Also while in the classic game
