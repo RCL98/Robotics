@@ -7,8 +7,9 @@
      
      https://ibb.co/6n7z05f (an image with the hardware)
      
-     Video: https://youtu.be/ujXDocgdEjU
-   
+     Video:
+     
+     
  - HOW TO PLAY:
    Since TETRIS is one of the most iconic games of all time, the user should have no problem playing the game. The controls are intuitive:
    - Use the Joystick to move the Tetromino block to the following directions: left, right(yAxis), and down(xAxis) when the player wants
