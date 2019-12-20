@@ -6,6 +6,7 @@
      5. 1 - Arduino Uno: the "brain" that runs it all
      
      https://ibb.co/6n7z05f (an image with the hardware)
+     
      Video: https://youtu.be/ujXDocgdEjU
    
  - HOW TO PLAY:
