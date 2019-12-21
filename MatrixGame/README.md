@@ -7,7 +7,7 @@
      
      https://ibb.co/6n7z05f (an image with the hardware)
      
-     Video:
+     Video: https://youtu.be/y1NTdkCfhUc
      
      
  - HOW TO PLAY:
