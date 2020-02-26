@@ -11,7 +11,7 @@
      10. 1x Active Piezzo Buzzer: same task as the Blue LED
      11. 1x Arduino Uno: controls all the mechanisms
      
-     https://ibb.co/6n7z05f (an image with the hardware)
+     https://ibb.co/b374dFK (an image with the hardware)
      
      Video: https://youtu.be/5U-HVZ_UWF0
      
@@ -22,3 +22,10 @@
      - For the gCode files you will need to use an extension found [here](https://github.com/martymcguire/inkscape-unicorn). As color commands are not native to gCode, you will need to replace some of the files of the extension with the ones found in the unicorn folder from this repository. These files have been specifically modified in order to work with this CNC MACHINE(i.e. added color commands).
      - Finally you will need to use the gctrl.pde processing program that will take the gCode files and upload them to the Ardunio where they will be processed. For this you will need to use [Proccesing](https://processing.org/) and the gctrl.pde aplication found [here](https://github.com/damellis/gctrl/blob/master/gctrl.pde). You will need to start Proccesing, and upload the gctrl.pde aplication to it.
  This should bring up the following window: https://cdn.instructables.com/FAB/UNTL/IHP6UI22/FABUNTLIHP6UI22.LARGE.jpg?auto=webp&frame=1&width=528&fit=bounds
+     From the opned window you can use:
+          - the arrow keyes to move the plotter in the X and Y directions
+          - the PageUp and PageDown to lift the pen and bring it down
+          - 0 in order to set home to the current direction 
+          - p to select the port that is connected to the Arduino Uno
+          - g to upload the desired gCode File 
+     - Once the gCode file is uploaded the CNC MACHINE will start to do it's job. When the color will need to be changed the user will be alerted by the Blue LED, which will light up, and by the Buzzeer, which will play a tune of 1K HZ for the duration of 10 sec(the time in which the user has to change the color). If the user doesn't change the color the Led and the buzzer will turn off and the plotter will keep going from where it left.  
