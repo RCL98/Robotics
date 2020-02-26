@@ -18,7 +18,7 @@
      
  - HOW TO USE:
      - In order for the machine to work you would need an image and a gCode file that will tell the machine how to move in order to plot that image.
-     For the image you need to use Inkscape. It's a free and open-source software that you can find [here](https://inkscape.org/release/inkscape-0.92.4/) (version 0.48.5 is recommended). You can find tutprials for printing text and other things with Inkscape [here](https://youtu.be/KD50yDop8kQ) and [here](https://youtu.be/7BFa0k6FJcc).
+     For the image you need to use Inkscape. It's a free and open-source software that you can find [here](https://inkscape.org/release/inkscape-0.92.4/) (version 0.48.5 is recommended). You can find tutprials for printing text and different shapes with Inkscape [here](https://youtu.be/KD50yDop8kQ) and [here](https://youtu.be/7BFa0k6FJcc).
      - For the gCode files you will need to use an extension found [here](https://github.com/martymcguire/inkscape-unicorn). As color commands are not native to gCode, you will need to replace some of the files of the extension with the ones found in the unicorn folder from this repository. These files have been specifically modified in order to work with this CNC MACHINE(i.e. added color commands).
      - Finally you will need to use the gctrl.pde processing program that will take the gCode files and upload them to the Ardunio where they will be processed. For this you will need to use [Proccesing](https://processing.org/) and the gctrl.pde aplication found [here](https://github.com/damellis/gctrl/blob/master/gctrl.pde). You will need to start Proccesing, and upload the gctrl.pde aplication to it.
  This should bring up the following window: https://cdn.instructables.com/FAB/UNTL/IHP6UI22/FABUNTLIHP6UI22.LARGE.jpg?auto=webp&frame=1&width=528&fit=bounds
@@ -28,4 +28,4 @@
           - 0 in order to set home to the current direction 
           - p to select the port that is connected to the Arduino Uno
           - g to upload the desired gCode File 
-     - Once the gCode file is uploaded the CNC MACHINE will start to do it's job. When the color will need to be changed the user will be alerted by the Blue LED, which will light up, and by the Buzzeer, which will play a tune of 1K HZ for the duration of 10 sec(the time in which the user has to change the color). If the user doesn't change the color the Led and the buzzer will turn off and the plotter will keep going from where it left.  
+     - Once the gCode file is uploaded the CNC MACHINE will start to do its job. When the color will need to be changed the user will be alerted by the Blue LED, which will light up, and by the Buzzeer, which will play a tune of 1K HZ for the duration of 10 sec(the time in which the user has to change the ink used). If the user doesn't change the color the Led and the buzzer will turn off and the plotter will keep going from where it left.  
