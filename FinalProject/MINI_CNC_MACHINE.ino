@@ -37,7 +37,7 @@ const float stepInc = 1;
 const int stepDelay = 0;
 const int lineDelay = 50;
 const int penDelay = 100;
-const int changeColorTimer = 5000;
+const int changeColorTimer = 10000;
 
 // Motor steps to go 1 millimeter.
 // Use test sketch to go 100 steps. Measure the length of line. 
@@ -247,11 +247,6 @@ void processIncomingLine(char * line, int charNB) {
         Serial.println((millis() - startClock) < changeColorTimer);
         while ((millis() - startClock) < changeColorTimer) {
           Serial.println(millis() - startClock);
-          //buffer[0] = Serial.read();
-          //buffer[1] = Serial.read();
-          //if (buffer[0] == 'G' && buffer[1] == 'o') {
-          //  break;
-          //}
         }
         noTone(buzzerPin);
         digitalWrite(ledPin, LOW);
