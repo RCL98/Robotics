@@ -8,12 +8,14 @@
      7. 1x 1k ohms Rezsitor
      8. 1x 330 ohms Rezistor
      9. 1x Blue LED: brings attention to the user that the color needs to be changed
-     10. 1x Active Piezzo Buzzer: same task as the Blue LED\
+     10. 1x Active Piezzo Buzzer: same task as the Blue LED
      11. 1x Arduino Uno: controls all the mechanisms
      
      https://ibb.co/6n7z05f (an image with the hardware)
      
-     Video: https://youtu.be/y1NTdkCfhUc
+     Video: https://youtu.be/5U-HVZ_UWF0
      
      
- - HOW TO PLAY:
+ - HOW TO USE:
+     - In order for the machine to work you would need an image and a gCode file that will tell the machine how to move in order to plot that image.
+     For the image you need to use Inkscape. It's a free and open-source software that you can find [here](https://inkscape.org/release/inkscape-0.92.4/) (version 0.48.5 is recommended).  
